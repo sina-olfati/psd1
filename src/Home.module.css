@@ -1,13 +1,28 @@
+.container{
+  width: 3556px;
+  height: 2000px;
+  background-color: #efefef
+}
+
+/* Design */
 .Shape {
-    background-color: rgb(34, 34, 34);
+    color: rgb(34, 34, 34);
     position: absolute;
     left: 3353px;
     top: 107px;
-    width: 83px;
+    width: 100px;
     height: 68px;
     z-index: 6;
   }
-  
-  img{
-    color: red;
+
+  .Shape2 {
+    border-radius: 50%;
+    background-color: rgb(230, 186, 56);
+    position: absolute;
+    left: 1073px;
+    top: 294px;
+    width: 1411px;
+    height: 1411px;
+    z-index: 5;
   }
+  
