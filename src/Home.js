@@ -7,10 +7,13 @@ import instagram from "./imgaes/instagram.png"
 import twitter from "./imgaes/twitter.png"
 import whatsApp from "./imgaes/whatsApp.png"
 import man from "./imgaes/man.png"
+import logo from "./imgaes/logo.png"
 
 const Home = () => {
   return (
     <div className={styles.container}>
+        <a href='#'><img src={logo} className={styles.logo}/></a>
+
         <a href='#'><img src={shape} className={styles.Shape}/></a>
         <span className={styles.Shape2}></span>
 

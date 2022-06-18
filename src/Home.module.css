@@ -4,6 +4,15 @@
   background-color: #efefef
 }
 
+/* logo */
+.logo{
+  width: 335px;
+  height: 56px;
+  position: absolute;
+  left: 118px;
+  top: 107px;
+}
+
 /* Design */
 .Shape {
     color: rgb(34, 34, 34);
