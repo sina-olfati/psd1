@@ -23,6 +23,95 @@
     top: 294px;
     width: 1411px;
     height: 1411px;
-    z-index: 5;
   }
+
+  /* Social Media */
+  .icons{
+    position: absolute;
+    top: 1777px;
+    left: 118px;
+  }
+
+  .icons img{
+    margin: 0 35px;
+  }
+  
+  /* Text */
+  .Address {
+    width: 600px;
+    height: 56px;
+    font-size: 50px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    position: absolute;
+    left: 2907px;
+    top: 1830px;
+  }
+
+  .Title {
+    width: 909px;
+    height: 540;
+    font-size: 292.13px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    line-height: 0.731;
+    text-align: left;
+    position: absolute;
+    left: 2163px;
+    top: 842px;
+  }
+  
+  .Button {
+    font-size: 37.5px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    line-height: 1.2;
+    position: absolute;
+    left: 306px;
+    top: 691px;  
+  }
+  
+  .Body_Text {
+    width: 735px;
+    height: 195px;
+    font-size: 48.35px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    line-height: 1.2;
+    position: absolute;
+    left: 308px;
+    top: 500px;
+  }
+  
+  .Nav {
+    width: 1250px;
+    height: 66px;
+    list-style-type: none;
+    font-size: 59px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    color: rgb(39, 39, 39);
+    text-transform: uppercase;
+    line-height: 0.91;
+    position: absolute;
+    left: 1152px;
+    top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+/* Man */
+  .man{
+    width: 802px;
+    height: 1637px;
+    position: absolute;
+    left: 1377px;
+    top: 363px;
+  }
+  
   
