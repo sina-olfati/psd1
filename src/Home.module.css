@@ -103,6 +103,7 @@
     align-items: center;
     justify-content: space-between;
   }
+ 
 
 
 /* Man */
@@ -112,6 +113,15 @@
     position: absolute;
     left: 1377px;
     top: 363px;
+  }
+
+
+
+
+  /* general */
+  a{
+    text-decoration: none;
+    color: inherit;
   }
   
   

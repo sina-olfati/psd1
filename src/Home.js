@@ -11,14 +11,14 @@ import man from "./imgaes/man.png"
 const Home = () => {
   return (
     <div className={styles.container}>
-        <img src={shape} className={styles.Shape}/>
+        <a href='#'><img src={shape} className={styles.Shape}/></a>
         <span className={styles.Shape2}></span>
 
         <div className={styles.icons}>
-          <img src={facebook}/>
-          <img src={instagram} />
-          <img src={twitter} />
-          <img src={whatsApp} />
+        <a href='#'><img src={facebook}/></a>
+        <a href='#'><img src={instagram} /></a>
+        <a href='#'><img src={twitter} /></a>
+        <a href='#'><img src={whatsApp} /></a>
         </div>
 
 
@@ -28,20 +28,20 @@ const Home = () => {
           <span className={styles.Title}>
           less is more.
           </span>
-          <span className={styles.Button}>
-          Read More
-          </span>
           <span className={styles.Body_Text}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices fi......
            {/* erat, eget laoreet justo elementum et. Integer id nisl nibh. Fusce lacinia iaculis tortor et fringilla. */}
           </span>
+          <span className={styles.Button}>
+          <a href='#'>Read More</a>
+          </span>
          
 
           <ul className={styles.Nav}>
-            <li>HOME</li>
-            <li>PRODUCT</li>
-            <li>STORE</li>
-            <li>ABOUT US</li>
+            <li><a href='#'>HOME</a></li>
+            <li><a href='#'>PRODUCT</a></li>
+            <li><a href='#'>STORE</a></li>
+            <li><a href='#'>ABOUT US</a></li>
           </ul>
 
           <img src={man}  className={styles.man}/>
