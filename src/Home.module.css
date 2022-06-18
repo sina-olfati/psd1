@@ -1,0 +1,13 @@
+.Shape {
+    background-color: rgb(34, 34, 34);
+    position: absolute;
+    left: 3353px;
+    top: 107px;
+    width: 83px;
+    height: 68px;
+    z-index: 6;
+  }
+  
+  img{
+    color: red;
+  }
